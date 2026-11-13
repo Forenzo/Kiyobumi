@@ -51,7 +51,7 @@ jobs:
           test "$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$app/Contents/Info.plist")" = 0.7.10
           codesign --verify --deep --strict --verbose=2 "$app"
           for binary in "$app/Contents/MacOS/Kiyobumi" "$app/Contents/Resources/one-import"; do
-            lipo -verify_arch "$ARCH" "$binary"
+            lipo "$binary" -verify_arch "$ARCH"
             otool -L "$binary"
             if otool -L "$binary" | grep -E '/(Users|opt/homebrew|usr/local)/'; then
               echo "Non-system runtime dependency found" >&2
