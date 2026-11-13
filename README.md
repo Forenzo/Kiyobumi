@@ -72,6 +72,10 @@ The build script runs Rust tests, bundles the importer and licences, and ad-hoc 
 
 Save and quit the app before updating. Newer notebook features can require a newer file schema, so keep backups before opening them with older versions.
 
+## Feedback and feature requests
+
+Bug reports, feature requests and suggestions are warmly welcome! Kiyobumi is continually improving, and feedback helps guide future development. Please [open an issue](https://github.com/Forenzo/Kiyobumi/issues) to report a problem or share an idea. For bugs, include your macOS version, Kiyobumi version and steps to reproduce the problem where possible.
+
 ## Project background and development
 
 Kiyobumi is an independent, open-source project inspired by the notebook organisation and freeform page model of desktop OneNote. It is not affiliated with Microsoft. Its native interface and converter are original project code; the OneNote reader includes a documented third-party compatibility patch.
