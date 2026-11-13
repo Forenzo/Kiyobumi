@@ -30,16 +30,12 @@ final class TextUndoTests: XCTestCase {
     @MainActor
     func testDetachedEditorCannotLeaveUndoTargetsInWindow() {
         _ = NSApplication.shared
-        weak var weakRemoved: ShadedCellTextView?
-        var retainedManager: UndoManager?
-        autoreleasepool {
         let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 300, height: 300),
                               styleMask: [.titled], backing: .buffered, defer: false)
         let survivor = CanvasTextView(frame: .zero)
         var removed: ShadedCellTextView? = ShadedCellTextView(frame: .zero)
-        weakRemoved = removed
+        weak var weakRemoved = removed
         let manager = removed!.textUndoManager
-        retainedManager = manager
         XCTAssertFalse(manager === survivor.textUndoManager)
         window.contentView!.addSubview(removed!)
         XCTAssertFalse(removed!.undoManager === window.undoManager)
@@ -52,10 +48,6 @@ final class TextUndoTests: XCTestCase {
         removed!.detachTextUndo()
         removed!.removeFromSuperview()
         removed = nil
-        }
-        // AppKit may autorelease text-system objects; drain that pool before
-        // asserting deallocation while retaining the undo manager independently.
-        let manager = retainedManager!
         XCTAssertNil(weakRemoved)
         XCTAssertFalse(manager.canUndo)
         XCTAssertFalse(manager.canRedo)
