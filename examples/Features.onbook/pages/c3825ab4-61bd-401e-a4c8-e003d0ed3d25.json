@@ -1,0 +1,75 @@
+{
+  "id": "c3825ab4-61bd-401e-a4c8-e003d0ed3d25",
+  "title": "0.2 feature tour",
+  "createdAt": "2026-10-11T00:00:00Z",
+  "modifiedAt": "2026-10-11T00:00:00Z",
+  "level": 0,
+  "background": "ruled",
+  "elements": [
+    {
+      "id": "e952e2c6-a294-4314-8c7a-145c881276ea",
+      "frame": {
+        "x": 48,
+        "y": 40,
+        "width": 620,
+        "height": 130
+      },
+      "content": {
+        "type": "text",
+        "markdown": "**Kiyobumi**\n\nUse the toolbar insert menu for text, tables, images and attachments.\nDouble-click a text box or table to edit, then click outside the box."
+      }
+    },
+    {
+      "id": "8bf0c953-4bd4-451f-b566-c460ad467294",
+      "frame": {
+        "x": 48,
+        "y": 220,
+        "width": 520,
+        "height": 110
+      },
+      "content": {
+        "type": "text",
+        "markdown": "- [ ] Try the fit-width button\n- [ ] Search for a word in the sidebar\n- [x] Keep your original OneNote exports"
+      }
+    },
+    {
+      "id": "cdbef5d4-0797-4cd4-a666-d7472c908749",
+      "frame": {
+        "x": 48,
+        "y": 370,
+        "width": 600,
+        "height": 150
+      },
+      "content": {
+        "type": "table",
+        "rows": [
+          [
+            "Feature",
+            "Where to find it"
+          ],
+          [
+            "Ruled/grid paper",
+            "Settings menu"
+          ],
+          [
+            "Real OneNote import",
+            "Import OneNote\u2026 button"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "06876de6-8b43-4113-8f84-a33a9355b2c0",
+      "frame": {
+        "x": 48,
+        "y": 590,
+        "width": 620,
+        "height": 160
+      },
+      "content": {
+        "type": "text",
+        "markdown": "OneNote import accepts .one sections, .onetoc2 alongside its sections, or a .onepkg export.\n\nRead the import report: font runs and decoded ink import with layout limits; history is not converted."
+      }
+    }
+  ]
+}

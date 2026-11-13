@@ -1,0 +1,14 @@
+[package]
+name = "one-import"
+version = "0.3.1"
+edition = "2021"
+rust-version = "1.89"
+license = "MIT"
+
+[dependencies]
+onenote_parser = { version = "=2.0.0", features = ["onepkg"] }
+typed-path = "=0.12.3"
+serde_json = "1"
+uuid = { version = "1.19", features = ["v4"] }
+time = "0.3"
+cab = "=0.6.0"

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kiyobumi optional page subheaders",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "version", "subheaders"],
+  "properties": {
+    "format": {"const": "org.kiyobumi.page-headers"},
+    "version": {"const": 1},
+    "subheaders": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+      "additionalProperties": {"type": "string"}
+    }
+  }
+}

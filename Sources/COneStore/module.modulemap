@@ -1,0 +1,4 @@
+module COneStore [system] {
+    header "include/onestore.h"
+    export *
+}

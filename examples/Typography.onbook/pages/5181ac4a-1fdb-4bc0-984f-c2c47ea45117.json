@@ -1,0 +1,47 @@
+{
+  "id": "5181ac4a-1fdb-4bc0-984f-c2c47ea45117",
+  "title": "Fonts and lists",
+  "createdAt": "2026-10-11T00:00:00Z",
+  "modifiedAt": "2026-10-11T00:00:00Z",
+  "level": 0,
+  "background": "ruled",
+  "elements": [
+    {
+      "id": "419965eb-7bb0-45bd-95e0-8503f96929ed",
+      "frame": {
+        "x": 48,
+        "y": 32,
+        "width": 620,
+        "height": 360
+      },
+      "content": {
+        "type": "richText",
+        "value": {
+          "text": "Clear writing — 清文\nSelect text to change its font, size and color.\n☐ Try a checkbox\n☑ Keep original OneNote files\n✓ Checkmarks\n✕ Crosses\n• Bullets\n1. Numbered items\n2. Return continues the list\n",
+          "runs": [
+            {
+              "location": 0,
+              "length": 18,
+              "format": {
+                "fontName": "Helvetica",
+                "fontSize": 28,
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "colorHex": "#265B8A"
+              }
+            }
+          ],
+          "defaultFormat": {
+            "fontName": "Helvetica",
+            "fontSize": 16,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "colorHex": "#111111"
+          }
+        }
+      }
+    }
+  ]
+}

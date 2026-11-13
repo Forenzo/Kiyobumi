@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+rust/target/
+dist/
+*.xcuserstate
+
+.swiftpm/
+xcuserdata/
+.env
+.env.*
+*.dSYM/

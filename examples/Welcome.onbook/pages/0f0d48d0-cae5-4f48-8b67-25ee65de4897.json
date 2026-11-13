@@ -1,0 +1,21 @@
+{
+  "id": "0f0d48d0-cae5-4f48-8b67-25ee65de4897",
+  "title": "First page",
+  "createdAt": "2026-10-10T00:00:00Z",
+  "modifiedAt": "2026-10-10T00:00:00Z",
+  "elements": [
+    {
+      "id": "b6dd2eaa-3899-4b8d-bb1f-1165150d61ae",
+      "frame": {
+        "x": 48,
+        "y": 48,
+        "width": 540,
+        "height": 180
+      },
+      "content": {
+        "type": "text",
+        "markdown": "Welcome to Kiyobumi\n\nThis page is stored as plain JSON. Double-click this box to edit it. Add ink with Pen or Highlighter; Save with Command-S."
+      }
+    }
+  ]
+}

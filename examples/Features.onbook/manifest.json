@@ -1,0 +1,16 @@
+{
+  "format": "org.opennotebook.notebook",
+  "schemaVersion": 2,
+  "id": "a58dcb00-e250-4f6c-a435-a112412427f4",
+  "name": "Feature Tour",
+  "sections": [
+    {
+      "id": "b81ec07a-19e6-47bf-8ea2-844431a6d446",
+      "name": "0.2 Features",
+      "colorHex": "#268F76",
+      "pageIDs": [
+        "c3825ab4-61bd-401e-a4c8-e003d0ed3d25"
+      ]
+    }
+  ]
+}

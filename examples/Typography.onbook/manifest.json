@@ -1,0 +1,16 @@
+{
+  "format": "org.opennotebook.notebook",
+  "schemaVersion": 3,
+  "id": "fdfb56c3-8e8f-4a5c-a3fb-7f4ab5d65fc3",
+  "name": "Typography",
+  "sections": [
+    {
+      "id": "f2862f7a-7eca-4b84-a59b-8b9a7418aee0",
+      "name": "Kiyobumi",
+      "colorHex": "#265B8A",
+      "pageIDs": [
+        "5181ac4a-1fdb-4bc0-984f-c2c47ea45117"
+      ]
+    }
+  ]
+}

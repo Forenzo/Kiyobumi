@@ -1,0 +1,12 @@
+[workspace]
+members = ["onestore", "one-import", "vendor/onenote_parser"]
+resolver = "2"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+strip = "debuginfo"
+
+[patch.crates-io]
+onenote_parser = { path = "vendor/onenote_parser" }

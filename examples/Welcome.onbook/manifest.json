@@ -1,0 +1,16 @@
+{
+  "format": "org.opennotebook.notebook",
+  "schemaVersion": 1,
+  "id": "38b622f3-782c-4aeb-b1c7-39d4819cd610",
+  "name": "Welcome",
+  "sections": [
+    {
+      "id": "a0d7b4b3-ac57-4767-a605-8b97210c3a25",
+      "name": "Getting Started",
+      "colorHex": "#3B82F6",
+      "pageIDs": [
+        "0f0d48d0-cae5-4f48-8b67-25ee65de4897"
+      ]
+    }
+  ]
+}
