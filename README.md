@@ -48,6 +48,12 @@ Kiyobumi is built with **SwiftUI and AppKit**, with a separate **Rust** import h
 
 The first public release uses **0.7.10**, the latest completed development version. See [Releases](https://github.com/Forenzo/Kiyobumi/releases) for version downloads and [Changelog](CHANGELOG.md) for development history.
 
+### Install a prebuilt app
+
+Open [Releases](https://github.com/Forenzo/Kiyobumi/releases/latest) and choose the prebuilt ZIP for your Mac: **arm64** for Apple Silicon (M-series), or **x86_64** for Intel. Extract it and move **Kiyobumi.app** into Applications. Swift and Rust are only needed when building from source.
+
+The app is ad-hoc signed and is not Apple-notarised; macOS may block its first launch. Release notes include current validation status, and checksum files and automated test reports accompany the binary packages.
+
 ### Build on your Mac
 
 Requires **macOS 13+**, **Swift 5.9+ with Apple's tools**, and **Rust 1.89+**. The first build downloads pinned Rust dependencies.
